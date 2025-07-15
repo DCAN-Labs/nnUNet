@@ -18,6 +18,7 @@ setup(name='nnunet',
             "batchgenerators>=0.23",
             "numpy",
             "scikit-learn",
+            "python-gdcm<=3.0.24.1"
             "SimpleITK<=2.4.1",
             "pandas",
             "requests",
