@@ -16,7 +16,7 @@ setup(name='nnunet',
             "medpy",
             "scipy",
             "batchgenerators>=0.23",
-            "numpy",
+            "numpy<=1.21.6",
             "scikit-learn",
             "python-gdcm<=3.0.24.1"
             "SimpleITK<=2.4.1",
