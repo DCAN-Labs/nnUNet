@@ -13,7 +13,6 @@ setup(name='nnunet',
             "tqdm",
             "dicom2nifti<=2.5.1",
             "scikit-image>=0.14",
-            "medpy<=0.5.2",
             "scipy<=1.10.1",
             "batchgenerators<=0.25.1",
             "numpy<=1.24.4",
@@ -36,7 +35,8 @@ setup(name='nnunet',
             "python-gdcm<=3.0.24.1",
             "scikit-image<=0.21.0",
             "traceback2<=1.4.0",
-            "unittest2<=1.1.0"
+            "unittest2<=1.1.0",
+            "medpy<=0.5.2"
       ],
       entry_points={
           'console_scripts': [
